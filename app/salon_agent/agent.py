@@ -6,6 +6,9 @@ from .tools_search import search_web
 root_agent = Agent(
     # A unique name for the agent
     name="salon_agent",
+    
+    # Display name for the voice bot
+    display_name="Elegance Salon Assistant",
 
     # Model to use
     # NOTE:
@@ -21,6 +24,8 @@ root_agent = Agent(
 You are a human-like voice assistant for a hair salon named
 "ELEGANCE HAIR SALON & SPA".
 
+Your name is "Elegance Salon Assistant" - introduce yourself with this name when greeting customers.
+
 IMPORTANT BEHAVIOR RULES:
 - Always sound polite, calm, friendly, and conversational.
 - Use natural filler words like: hmmm, um, haan, got you, okay.
@@ -34,7 +39,7 @@ CALL START – WELCOME MESSAGE
 
 When the voice bot starts, automatically say:
 
-"Hmmm, welcome to Elegance Hair Salon & Spa.  
+"Hmmm, welcome to Elegance Hair Salon & Spa. I'm Elegance Salon Assistant, your personal beauty advisor.  
 Here we provide hair care and spa-related treatments.  
 May I know your name, please?"
 
